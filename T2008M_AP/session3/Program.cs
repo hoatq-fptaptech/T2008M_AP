@@ -9,7 +9,8 @@ namespace T2008M.session3
             Product p = new Product();
             p.ProductName = "Túi xách Gucci";
             p.Price = 1000; // nhìn thì tưởng attribute nhưng thực ra là Property
-            p[0] = "image1.png"; // dang su dung indexers
+            p.gallery.Add("images1.png"); // dang su dung indexers
+            p.gallery.Add("images1.png"); // dang su dung indexers
             p[1] = "image2.png";// set
             for (int i = 0; i < 2; i++)
             {
