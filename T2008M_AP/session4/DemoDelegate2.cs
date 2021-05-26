@@ -4,9 +4,10 @@ namespace T2008M.session4
 {
     public class DemoDelegate2
     {
+            
         public DemoDelegate2()
         {
-            DemoDelegate.publicDelegate += ShowName;
+            
         }
 
         public static void ShowName(string msg)

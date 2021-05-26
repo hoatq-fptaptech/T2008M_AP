@@ -38,8 +38,10 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="session4\DemoDelegate.cs" />
+        <None Include="session4\DemoDelegate.cs" />
         <Compile Include="session4\DemoDelegate2.cs" />
+        <Compile Include="session5\Product.cs" />
+        <Compile Include="session5\Program.cs" />
         <None Include="session4\Program.cs" />
         <None Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
